@@ -1,3 +1,5 @@
+/* GLOBAL CSS RESETTING */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +17,8 @@ body {
     flex: 1;
 }
 
+/* HERO SECTION */
+
 .hero-section {
     display: flex;
     flex-direction: column;
@@ -24,6 +28,8 @@ body {
     gap: 100px;
     
 }
+
+/* NAVIGATION SECTION */ 
 
 .nav {
     display: flex;
@@ -50,6 +56,8 @@ body {
 .nav-links li {
     list-style-type: none;
 }
+
+/* HERO SECTION MAIN CONTENTS */ 
 
 .main-content {
     display: flex;
@@ -97,6 +105,7 @@ body {
     height: 100%;
 }
 
+/* INFO SECTION / ABOUT SECTION */
 .info-section {
     padding: 60px 20px;
 }
@@ -132,8 +141,35 @@ body {
     margin-top: 10px;
 }
 
+/* QUOTE SECTION */
+
 .quote-section {
-    
+    background-color: #E5E7EB;
+    padding: 80px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
 }
+
+.quote-box {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote-author {
+    font-weight: 600;
+    margin-left: auto;
+}
+
 
 
