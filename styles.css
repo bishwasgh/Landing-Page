@@ -149,7 +149,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-   
 }
 
 .quote-box {
@@ -171,5 +170,46 @@ body {
     margin-left: auto;
 }
 
+/* CTA SECTION */
 
+.cta-section {
+    padding: 60px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-box {
+    width: 900px;
+    padding: 40px 60px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+
+
+.cta-text,
+.cta-signup {
+    color: #F9FAF8;
+    font-family: sans-serif;
+}
+
+.cta-text {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.btn {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 6px;
+    padding: 8px 28px;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 18px;
+}
 
